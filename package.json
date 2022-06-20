@@ -1,0 +1,32 @@
+{
+  "name": "digital-agency",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-next": "^1.0.5",
+    "countup": "^1.8.2",
+    "jquery": "^3.6.0",
+    "next": "^12.1.6",
+    "owl.carousel": "^2.3.4",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-countup": "^6.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-owl-carousel": "^2.3.3",
+    "react-router": "^6.3.0",
+    "react-visibility-sensor": "^5.1.1",
+    "wow.js": "^1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
