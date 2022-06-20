@@ -1,0 +1,139 @@
+.Project_contant {
+    background-color: #0B1E38;
+    padding-top: 40px;
+}
+
+.isActive_item_Color {
+    color: #FFC93E !important;
+}
+
+.product_catagorie_button {
+    text-align: center;
+    padding: 10px;
+}
+
+.product_catagorie_button li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
+.product_item_contant {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Product_item {
+    width: 40%;
+}
+
+.Product_item_image {
+    width: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.Product_link {
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+    transform: translate(-220px, 0px);
+    opacity: 0;
+}
+
+
+.Product_item_image:hover {
+    opacity: 0.4;
+}
+
+.Product_item_image:hover .Product_link {
+    opacity: 1;
+}
+.Product_item_title a{
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .product_item_contant{
+        display: none;
+    }
+    .Product_item_Mobile{
+        width: 90%;
+        padding-left: 5%;
+    }
+    .Product_item_title {
+        color: white;
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding: 5px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .Product_item_description {
+        color: #E0E5F3;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 700px) {
+    .Mobile_response_Product_contant{
+        display: none;
+    }
+    .product_Section_title {
+        text-align: center;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .Product_item_title {
+        color: white;
+        font-weight: 600;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    .Product_item_description {
+        color: #E0E5F3;
+        width: 100%;
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .Mobile_response_Product_contant{
+        display: none;
+    }
+    .product_Section_title {
+        text-align: center;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .Product_item_title {
+        color: white;
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding: 10px 0px;
+        width: 90%;
+    }
+    .Product_item_description {
+        color: #E0E5F3;
+        width: 90%;
+    }
+}

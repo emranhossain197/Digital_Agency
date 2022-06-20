@@ -1,0 +1,102 @@
+.About_contant {
+    background-color: #0B1E38;
+
+}
+
+.about_button {
+    padding: 9px 17px;
+    background-color: #FFC93E;
+    color: #0B1E38;
+    border-radius: 30px;
+    font-weight: 400;
+
+}
+.about_button a{
+    color: #0B1E38;
+    text-decoration: none;
+}
+
+.Counter_title {
+    font-size: 1.2rem;
+}
+
+.Count_contant {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .About_Img {
+        width: 100%;
+    }
+
+    .About_title {
+        color: white;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+
+    .About_Sub_title {
+        color: #E0E5F3;
+        width: 100%;
+
+    }
+
+    .Contant_counter {
+        width: 250px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .About_Img {
+        width: 100%;
+    }
+
+    .About_title {
+        color: white;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+
+    .About_Sub_title {
+        color: #E0E5F3;
+        width: 100%;
+
+    }
+
+    .Contant_counter {
+        width: 220px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .About_Img {
+        width: 100%;
+    }
+
+    .About_title {
+        color: white;
+        font-weight: 600;
+        font-size: 3rem;
+    }
+
+    .About_Sub_title {
+        color: #E0E5F3;
+        width: 90%;
+
+    }
+
+    .Contant_counter {
+        width: 220px;
+    }
+}

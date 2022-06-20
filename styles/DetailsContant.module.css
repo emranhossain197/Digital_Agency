@@ -1,0 +1,142 @@
+@media only screen and (max-width: 768px) {
+    .Details_contant {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Details_left_contant {
+        background-color: #FFC93E;
+        padding: 20px;
+    }
+
+    .Details_right_contant {
+        background-color: #353F5B;
+        padding: 20px;
+    }
+
+    .Image {
+        width: 95%;
+    }
+
+    .Detail_h1 {
+        padding: 30px 0px 15px 10px;
+        color: white;
+    }
+
+    .Details_ul {
+        padding-left: 30px;
+        list-style-image: url(../assets/images/icon.png);
+    }
+
+    .Details_ul li {
+        padding-left: 7px;
+    }
+
+    .Details_ul_li_h3 {
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    .Details_ul_li_p {
+        color: #E0E5F3;
+        width: 85%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .Details_left_contant {
+        background-color: #FFC93E;
+        padding: 20px;
+        height: 70vh;
+        position: relative;
+    }
+
+    .Details_right_contant {
+        background-color: #353F5B;
+        padding: 20px;
+        height: 70vh;
+    }
+
+    .Image {
+        width: 100%;
+        position: absolute;
+        top: 15%;
+        left: 15%;
+    }
+
+    .Detail_h1 {
+        padding: 10px 0px 10px 90px;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .Details_ul {
+        padding-left: 90px;
+        list-style-image: url(../assets/images/icon.png);
+    }
+
+    .Details_ul li {
+        font-size: 16px;
+        padding-left: 7px;
+    }
+
+    .Details_ul_li_h3 {
+        color: white;
+        font-size: 1rem;
+    }
+
+    .Details_ul_li_p {
+        color: #E0E5F3;
+        /* width: 100%; */
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .Details_left_contant {
+        background-color: #FFC93E;
+        padding: 20px;
+        height: 80vh;
+        position: relative;
+    }
+
+    .Details_right_contant {
+        background-color: #353F5B;
+        padding: 20px;
+        height: 80vh;
+    }
+
+    .Image {
+        width: 95%;
+        position: absolute;
+        top: 10%;
+        left: 17%;
+    }
+
+    .Detail_h1 {
+        padding: 30px 0px 15px 90px;
+        color: white;
+        font-size: 2rem;
+    }
+
+    .Details_ul {
+        padding-left: 90px;
+        list-style-image: url(../assets/images/icon.png);
+    }
+
+    .Details_ul li {
+        padding-left: 7px;
+    }
+
+    .Details_ul_li_h3 {
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    .Details_ul_li_p {
+        color: #E0E5F3;
+        width: 90%;
+    }
+}

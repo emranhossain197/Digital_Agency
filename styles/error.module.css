@@ -1,0 +1,41 @@
+@media only screen and (max-width: 700px) {
+   
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 700px) { */
+    .error_contant{
+        text-align: center;
+        padding: 50px 0px;
+    }
+    .error_img{
+        width:60%;
+        text-align: center;
+    }
+    .error_title{
+        font-size: 2rem;
+        width: 70%;
+        display: inline-block;
+    }
+    .error_button{
+        background-color: #FFC93E;
+        padding: 12px 18px;
+        font-size: 18px;
+        color: white;
+        font-weight: 700;
+        border: none;
+        border-radius: 30px;
+    }
+    .error_button a{
+        color: white;
+        text-decoration: none;
+    }
+
+/* } */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+}

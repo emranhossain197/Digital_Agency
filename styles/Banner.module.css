@@ -1,0 +1,261 @@
+.Banner {
+    background-color: #0B1E38;
+    text-align: center;
+}
+
+.banner_button {
+    padding: 9px 15px;
+    background-color: #FFC93E;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 30px;
+    display: inline-block;
+    cursor: pointer !important;
+}
+
+.banner_button a {
+    text-decoration: none;
+    color: #0B1E38;
+    cursor: pointer !important;
+}
+
+
+@-webkit-keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@keyframes myAnim {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 1;
+        transform: translateY(-20px);
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    40% {
+        animation-timing-function: ease-in;
+        transform: translateY(-16px);
+    }
+
+    65% {
+        animation-timing-function: ease-in;
+        transform: translateY(-12px);
+    }
+
+    82% {
+        animation-timing-function: ease-in;
+        transform: translateY(-6px);
+    }
+
+    93% {
+        animation-timing-function: ease-in;
+        transform: translateY(-4px);
+    }
+
+    25%,
+    55%,
+    75%,
+    87% {
+        animation-timing-function: ease-out;
+        transform: translateY(0px);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Banner {
+        position: relative;
+        height: 130vh;
+    }
+
+    .vector2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+
+    .vector {
+        display: none;
+    }
+
+    .BannerSubImg {
+        position: absolute;
+        top: 2%;
+        left: 1%;
+        width: 150px;
+        animation: myAnim 8s linear 0s infinite normal backwards;
+    }
+
+    .Star_img {
+        position: absolute;
+        top: 8%;
+        right: 5%;
+        width: 40px;
+        -webkit-animation: rotate-center 30s infinite both;
+        animation: rotate-center 30s infinite both;
+    }
+
+    .Star_img_2 {
+        display: none;
+    }
+
+    .SlideImg {
+        position: absolute;
+        top: 75%;
+        left: 2%;
+        width: 50%;
+
+    }
+
+    .HeroImg {
+        position: absolute;
+        top: 42%;
+        right: 7%;
+        width: 80%;
+
+    }
+
+    .first_title {
+        font-size: 4rem;
+        color: white;
+        font-weight: bolder;
+        padding-top: 40px;
+    }
+
+    .title {
+        font-size: 4rem;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .titleP {
+        color: #E0E5F3;
+        padding-top: 20px;
+        padding: 0px 15px;
+        font-size: 18px;
+        display: inline-block;
+    }
+
+    .bannerSubTitle {
+        padding-right: 14%;
+        text-align: left;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    .Banner {
+        position: relative;
+        height: 100vh;
+    }
+
+    .vector {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .vector2 {
+        display: none;
+    }
+
+    .BannerSubImg {
+        position: absolute;
+        top: 7%;
+        left: 12%;
+        animation: myAnim 8s linear 0s infinite normal backwards;
+    }
+
+    .Star_img {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        width: 40px;
+        -webkit-animation: rotate-center 30s infinite both;
+        animation: rotate-center 30s infinite both;
+    }
+
+    .Star_img_2 {
+        position: absolute;
+        top: 10%;
+        right: 25%;
+        width: 40px;
+        -webkit-animation: rotate-center 30s infinite both;
+        animation: rotate-center 30s infinite both;
+    }
+
+    .SlideImg {
+        position: absolute;
+        bottom: 0%;
+        left: 2%;
+        width: 25%;
+
+    }
+
+    .HeroImg {
+        position: absolute;
+        bottom: 7%;
+        right: 8%;
+        width: 30%;
+    }
+
+    .first_title {
+        font-size: 6rem;
+        color: white;
+        font-weight: bolder;
+        padding-top: 40px;
+    }
+
+    .title {
+        font-size: 6rem;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .titleP {
+        color: #E0E5F3;
+        padding-top: 20px;
+        width: 45%;
+        font-size: 18px;
+        display: inline-block;
+    }
+
+    .bannerSubTitle {
+        padding-right: 14%;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}

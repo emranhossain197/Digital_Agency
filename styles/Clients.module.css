@@ -1,0 +1,106 @@
+.client_contant {
+    background-color: #0B1E38;
+    padding: 30px 30px 20px 50px;
+}
+
+.Client_parson_item {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Client_item_img {
+    width: 60px !important;
+}
+
+.Client_item {
+    width: 100%;
+    background-color: #353F5B;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+
+
+.Description {
+    font-size: 1rem;
+    color: white;
+    padding: 10px 0px;
+}
+
+
+
+.Client_item_contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.quote_icon {
+    color: rgb(91, 95, 104);
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+    .Client_contant_title {
+        font-size: 1.8rem;
+        color: white;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+    }
+
+    .Star {
+        font-size: 14px;
+        color: white;
+    }
+
+    .Client_parson_name {
+        color: white;
+        font-size: 1rem;
+    }
+
+    .Client_parson_name span {
+        color: #FFC93E;
+        font-size: 0.8rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 700px) {
+    .Client_contant_title {
+        font-size: 2rem;
+        color: white;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+    }
+
+    .Star {
+        font-size: 18px;
+        color: white;
+    }
+
+    .Client_parson_name span {
+        color: #FFC93E;
+        font-size: 0.8rem;
+    }
+
+    .Client_parson_name {
+        color: white;
+        font-size: 1rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .Client_contant_title {
+        font-size: 2.2rem;
+        color: white;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+    }
+
+
+}

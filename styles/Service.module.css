@@ -1,0 +1,115 @@
+.Service_container {
+    background-color: #0B1E38;
+}
+
+.Serive_item_1 {
+    background-color: #353F5B;
+    padding: 50px 30px;
+    margin-bottom: 15px;
+    border-radius: 30px 0px 0px 0px;
+}
+
+.Serive_item_2 {
+    background-color: #353F5B;
+    padding: 50px 30px;
+    border-radius: 0px 0px 0px 30px;
+}
+
+.Serive_item_3 {
+    background-color: #353F5B;
+    padding: 50px 30px;
+    margin-bottom: 15px;
+    border-radius: 0px 30px 0px 0px;
+}
+
+.Serive_item_4 {
+    background-color: #353F5B;
+    padding: 50px 30px;
+    border-radius: 0px 0px 30px 0px;
+}
+
+.Service_icon {
+    color: #FFC93E;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+
+
+.Service_item_title {
+    color: white;
+    font-size: 1.8rem;
+    padding-bottom: 15px;
+}
+
+.Service_item_Description {
+    color: #E0E5F3;
+    font-size: 1rem;
+}
+
+.Service_item_button {
+    background-color: #353F5B;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.Service_item_button a{
+    color: white;
+    text-decoration: none;
+}
+.Service_item_button:hover {
+    background-color: #FFC93E;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .Service_contant {
+        display: none;
+    }
+
+    .Servie_title {
+        color: white;
+        padding-top: 40px;
+        padding-left: 40px;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+    }
+
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 700px) {
+    .Mobile_Response_Service_contant {
+        display: none;
+    }
+
+    .Service_contant {
+        padding: 40px;
+    }
+
+    .Servie_title {
+        color: white;
+        padding-top: 40px;
+        padding-left: 40px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .Service_item_right {
+        padding-top: 30px;
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+}

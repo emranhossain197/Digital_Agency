@@ -1,0 +1,118 @@
+.Footer_contant {
+    background-color: #10294d;
+}
+
+.Sign_up_contant {
+    background-color: #FFC93E;
+    width: 95%;
+    padding: 40px 50px;
+    border-radius: 15px;
+}
+
+.sign_input {
+    background-color: #FFC93E;
+    border: none;
+    outline: none;
+    width: 80%;
+    padding: 8px;
+
+}
+
+.Sign_up_button {
+    background-color: #FFC93E;
+    border: none;
+    font-size: 20px;
+}
+
+.Sign_up_input {
+
+    border-bottom: 1.5px solid black;
+
+}
+.Footer_icons{
+    color: white;
+    
+}
+.Footer_icons svg{
+    margin-right: 15px;
+    font-size: 18px;
+    text-align: left;
+    cursor: pointer;
+}
+.Footer_icons svg:hover{
+    color: #FFC93E;
+}
+
+.Copyright_p{
+    color: white;
+}
+.Footer_ul li{
+    display: inline-block;
+    padding-right: 20px;
+    color: white;
+}
+@media only screen and (max-width: 700px) {
+    .Sign_up_title {
+        font-weight: bold;
+        font-size: 1rem;
+       
+    }
+    .Footer_title{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 1.2rem;
+    }
+    .Footer_p {
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+    }
+    .Footer_bottom_contant{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px;
+        flex-direction: column-reverse;
+    }
+    .Footer_copyright{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 700px) {
+    .Footer_title {
+        color: white;
+        font-size: 1.8rem;
+    }
+
+    .Sign_up_title {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .Footer_p {
+        font-size: 1rem;
+        color: white;
+    }
+    .Footer_bottom_contant{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 15px;
+    }
+    .Footer_copyright{
+        flex-basis: 70%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
